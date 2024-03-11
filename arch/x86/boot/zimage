@@ -1,0 +1,10 @@
+Usage : zimage refers to a distinct compressed kernel image file format. 
+It's designed for X86-based systems. 
+It addresses the limitations of older bootloaders that couldn't handle sizeable compressed kernel images.
+
+
+Algorithm : lz77 
+description : LZ77 algorithms achieve compression by replacing repeated 
+occurrences of data with references to a single copy of that data existing earlier in the uncompressed data stream.
+
+related leetcode problem : https://leetcode.com/problems/string-compression/description/
